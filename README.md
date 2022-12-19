@@ -1,103 +1,40 @@
-# bankapp-mock-api
+✨Tripoto-Clone✨
+---
+This is a collaborative Project from Masai School in the Construct Week. We are 4 members of the team:
 
-#### Prerequisite
-* Create a folder
-```
-mkdir bankapp-mock-api
-cd bankapp-mock-api
-```
+1. Pankaj Singh : Team Lead
 
-#### Step 1: Create a node js project
-```
-npm init -y
-```
+2. Nasir Imam
 
-#### Step 2: Install json server dependency
-```
-npm i json-server
-```
+3. Shikha Gupta
 
-#### Step 3: Create server.js
-```js
-const jsonServer = require('json-server')
+4. Rahul Singh
 
-const server = jsonServer.create()
+💻Project Unique Name :- R.P.S.N Vacation ✈️
+---
+Tripoto is a travel Booking website, for providing end to end solution to to your travelling by making your bookings handy.
 
-const router = jsonServer.router('db.json')
-const middlewares = jsonServer.defaults()
- 
-server.use(middlewares)
-server.use('/api', router)
-server.listen(process.env.PORT || 5000, () => {
-  console.log('JSON Server is running')
-})
+💫Tech & Tools Used :
+--- 
+
+For Frontend : HTML5, CSS3, Javascript, JS6, ReactJS Redux.
+
+For database: Json Server (cyclic).
+
+Chakra UI (UI Styling Library) Styled-Components.
+
+For authentication: Google firebase authentication.
+
+---
 
 
-```
+https://user-images.githubusercontent.com/107506646/208311924-c224a6b2-1ddc-4680-9bb1-1d9169f7a992.mp4
 
 
-#### Step 4: Create db.json
-```js
-{
-    "users": [
-        { "id": 1, "name":"Naresh Kumar H", "email":"nareshkumarh@live.com", 
-        "password":"pass123", "role": "USER"
-        },
-        { "id": 2, "name":"Tushant", "email":"tushant@gmail.com", 
-            "password":"pass123", "role": "ADMIN"
-        }
-    ],
-    "accounts":[
+        
+---
+Deployed Link : https://ornate-marigold-ad611d.netlify.app/
 
-    ],
-    "transactions":[
 
-    ]
-}
-```
-
-#### Step 5: Run the Node JS Project
-```
-node server.js
-```
-
-#### Step 6: Test - List Users API 
-```
-http://localhost:5000/api/users
-```
-
-Output:
-```js
-[
- {
- id: 1,
- name: "Naresh Kumar H",
- email: "nareshkumarh@live.com",
- password: "pass123",
- role: "USER"
- },
-{
- id: 2,
- name: "Tushant",
- email: "tushant@gmail.com",
- password: "pass123",
- role: "ADMIN"
-}
-]
-```
-
-#### Step 7: Test - View User Details API 
-```
-http://localhost:5000/api/users/1
-```
-
-Output:
-```js
- {
- id: 1,
- name: "Naresh Kumar H",
- email: "nareshkumarh@live.com",
- password: "pass123",
- role: "USER"
- }
-```
+---
+<h1 align="center">✨Thank You✨</h1>
